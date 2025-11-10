@@ -20,34 +20,46 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "fullstack",
+    category: "fullstack React",
     title: "project 1",
     description:
       "This Full Stack project is the one that laid the base foundation for Childrens Mercy Hospital Community Benefit Department.",
     stack: [{ name: "html 5" }, { name: "Css 3" }, { name: "Javascript" }, { name: "React" }, { name: "Node.js" }],
     image: "/assets/DarkMode.png",
     live: "",
-    github: "",
+    github: "https://github.com/bdennis3/Children-s-Mercy-project",
   },
   {
     num: "02",
     category: "Frontend",
     title: "project 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde et eius recusandae quasi, distinctio accusamus sunt fugit!",
+      "I built my personal portfolio website using Next.js to showcase my projects, skills, and experience. The site features dynamic routing, responsive design, and fast load times powered by Next.js's server-side rendering and static site generation. It's optimized for performance and designed to be easily maintainable and scalable as my work grows.",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
     image: "/assets/My website screenshot.png",
     live: "",
-    github: "",
+    github: "https://github.com/bdennis3/Braxton-s-Portfolio",
   },
   {
     num: "03",
-    category: "frontend",
-    title: "project 1",
+    category: "WordPress",
+    title: "Rachelle&Co",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde et eius recusandae quasi, distinctio accusamus sunt fugit!",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "React" }],
-    image: "/assets/work/thumb3.png",
+      "Revamp of a event planning website where individuals can also purchase merchandise",
+    stack: [{ name: "WordPress" }, { name: "Elementor" }],
+    image: "/assets/Rachelle&co.png",
+    live: "https://rachelleco.com/",
+    github: "",
+    
+  },
+   {
+    num: "04",
+    category: "JavaScript & React",
+    title: "1898&Co",
+    description:
+      "Developing an Objective Key Result Platform",
+    stack: [{ name: "JavaScript, React, Node, PostgreSQL" }, ],
+    image: "/assets/bm1898project.png",
     live: "",
     github: "",
   },

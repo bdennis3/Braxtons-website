@@ -7,7 +7,7 @@ import { easeIn, motion } from "framer-motion";
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Full-Stack Development",
     description:
       "Building a fullstack application frontend and backend to the clients fitting",
     href: "",
@@ -21,12 +21,18 @@ const services = [
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "Product Design",
     description:
-      "Designing Logo's to fit to the clients needs",
+      "Created wireframes and prototypes to support iterative development and user feedback integration.  ",
     href: "",
   },
-  
+   {
+    num: "04",
+    title: "Frontend Developer",
+    description:
+      "Passionate about crafting clean, responsive, and user-friendly web interfaces. I specialize in turning design concepts into interactive digital experiences using HTML, CSS, JavaScript, and modern frameworks.",
+    href: "",
+  },
 ];
 
 const Services = () => {

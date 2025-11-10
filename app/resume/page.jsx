@@ -8,6 +8,8 @@ import {
   FaFigma,
   FaNodeJs,
   FaPython,
+  FaWordpress,
+  FaNpm,
 } from "react-icons/fa";
 
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
@@ -61,23 +63,28 @@ const about = {
 //experience data
 const experience = {
   icon: "/assets/resume/badge.svg",
-  title: "My experience",
+  title: "My Experience",
   description:
     "",
   items: [
     {
       company: "i.c. Stars|* Kansas City.",
-      position: "Full Stack Developer",
-      duration: "2024-Present",
+      position: "Technical Associate",
+      duration: "2025-Present",
     },
     {
-      company: "Freelance Web Developer",
-      position: "Front-End  Developer Intern",
-      duration: "Summer 2023",
+      company: "i.c. Stars|* Kansas City.",
+      position: "Full Stack Developer",
+      duration: "2024",
+    },
+    {
+      company: "Cyber Creationz",
+      position: "Lead Software Developer",
+      duration: "2024",
     },
     {
       company: "E-commerce Start-Up",
-      position: "Freelance Web Developer",
+      position: "Software Developer",
       duration: "2024-Present",
     },
     {
@@ -101,10 +108,25 @@ const experience = {
 //education data
 const education = {
   icon: "/assets/resume/cap.svg",
-  title: "My education",
+  title: "My Education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam corrupti tempora accusantium excepturi repellendus nemo officiis.",
+    "A self-driven learning journey supported by structured courses and real-world projects.",
   items: [
+    {
+      instution: "i.c. Stars",
+      degree: "Technology Fellow",
+      duration: "Present",
+    },
+    {
+      instution: "CompTIA Tech+",
+      degree: "Certificate",
+      duration: "2025",
+    },
+    {
+      instution: "i.c. Stars",
+      degree: "Certificate of Completion",
+      duration: "2024",
+    },
     {
       instution: "Kansas State University",
       degree: "Biology",
@@ -125,16 +147,7 @@ const education = {
       degree: "Certified Web Developer",
       duration: "2021",
     },
-    {
-      instution: "i.c. Stars",
-      degree: "Certificate of Completion",
-      duration: "2024",
-    },
-    {
-      instution: "community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014-2016",
-    },
+    
   ],
 };
 
@@ -142,7 +155,7 @@ const education = {
 const skills = {
   title: "My Skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam corrupti tempora accusantium excepturi repellendus nemo officiis.",
+    "These are the skills i have mastered in the process of being a software engineer",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -177,8 +190,16 @@ const skills = {
       name: "figma",
     },
     {
+      icon: <FaWordpress />,
+      name: "Wordpress",
+    },
+    {
       icon: <FaPython />,
       name: "Python",
+    },
+    {
+      icon: <FaNpm />,
+      name: "NPM",
     },
   ],
 };
